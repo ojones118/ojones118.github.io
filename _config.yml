@@ -224,3 +224,8 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+    # when ready to deploy, file + save as _config.yml then run:
+    #git add .
+   #git commit -m "expanded summary" 
+   #git push -u origin main
