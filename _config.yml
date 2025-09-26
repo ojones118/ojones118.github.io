@@ -16,7 +16,7 @@ timezone:
 
 title: Omari Jones # the main title
 
-tagline: A practical cybersecurity portfolio documenting my hands-on journey through red/blue team labs, tools like Ludus, and real-world threat analysis. # it will display as the subtitle
+tagline: A practical cybersecurity portfolio documenting my hands-on journey through cybersecurity labs, tools like Ludus, and real-world threat analysis. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Documenting my cybersecurity journey through labs, CVEs, and writeups.
