@@ -14,9 +14,9 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Omari Jone # the main title
+title: Omari Jones # the main title
 
-tagline: A practical cybersecurity portfolio documenting my hands-on journey through cybersecurity labs, tools like Ludus, and real-world threat analysis. # it will display as the subtitle
+tagline: A practical guide on being DAPI cybersecurity portfolio documenting my hands-on journey through cybersecurity labs, tools like Ludus, and real-world threat analysis. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Documenting my cybersecurity journey through labs, CVEs, and writeups of emerging threats.
