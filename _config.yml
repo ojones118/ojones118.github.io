@@ -14,7 +14,7 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Omari Jones # the main title
+title: Omari Jone # the main title
 
 tagline: A practical cybersecurity portfolio documenting my hands-on journey through cybersecurity labs, tools like Ludus, and real-world threat analysis. # it will display as the subtitle
 
@@ -225,7 +225,7 @@ jekyll-archives:
     tag: /tags/:name/
     category: /categories/:name/
 
-    # when ready to deploy, file + save as _config.yml then run:
-    #git add .
+   # when ready to deploy, file + save as _config.yml then run:
+   #git add .
    #git commit -m "expanded summary" 
    #git push -u origin main
