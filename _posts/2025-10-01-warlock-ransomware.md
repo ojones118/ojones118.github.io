@@ -3,7 +3,7 @@ layout: post
 title: "Warlock Ransomware Targets Energy Sector"
 date: 2025-10-01
 By: "Omari Jones"
-categories: [Malware, Energy]
+categories: [Malware, Energy, Ransomware]
 tags: [type=ransomware, ind=energy, report-type=analytical, mal=warlock]
 description: "Analytical assessment of the Warlock ransomware campaign targeting energy companies."
 ---
