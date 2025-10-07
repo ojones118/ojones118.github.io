@@ -7,7 +7,9 @@ categories: [Ransomware, Industry, Energy]
 tags: [ransomware, energy, analytical, warlock]
 description: "Analytical assessment of the Warlock ransomware campaign targeting energy companies."
 ---
-# image goes here
+<p align="center">
+  <img src="/assets/Warlock.png" alt="Warlock Ransomware Banner" width="700">
+</p>
 ## Summary
 The Warlock ransomware group has initiated a campaign aimed at energy providers across North America, ex## Analysis
 Attackers employ a double-extortion model—stealing data before encryption.
