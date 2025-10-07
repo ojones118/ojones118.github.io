@@ -4,7 +4,7 @@ title: "ShadowLynx: A Stealth Backdoor Hidden in Software Supply Chains"
 date: 2025-10-08
 By: Omari Jones
 categories: [Malware, Supply Chain]
-tags: [ShadowLynx, backdoor, npm, telemetry, analytical]
+tags: [ShadowLynx, backdoor, npm, telemetry, report-type=analytical]
 description: "An analytical report on the ShadowLynx backdoor infiltrating global supply chains through compromised npm packages and obfuscated telemetry modules."
 ---
 
