@@ -2,7 +2,7 @@
 layout: post
 title: "LockBit Returns: Manufacturing Sector Disruption"
 date: 2025-10-08
-author: Omari Jones
+By: Omari Jones
 categories: [Malware, Ransomware]
 tags: [mal=lockbit, ind=manufacturing, type=ransomware, report-type=analytical]
 description: "Analytical report on renewed LockBit activity targeting global manufacturing firms."
