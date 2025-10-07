@@ -3,7 +3,7 @@ layout: post
 title: "WannaCry Ransomware Five Years Later"
 date: 2025-10-03
 By: Omari Jones
-categories: [Malware]
+categories: [Malware,Ransomware]
 tags: [mal=wannacry,geo=all , type=ransomware]
 description: "User-friendly reflection on WannaCry’s long-term lessons."
 ---
