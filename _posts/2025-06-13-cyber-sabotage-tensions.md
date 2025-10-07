@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Geopolitical Tensions Drive Cyber Sabotage Attempts"
-date: 2025-10-13
+date: 2025-06-13
 By: Omari Jones and Syrah Syed
 categories: [Geopolitics, Cyberwarfare]
 tags: [cyberwarfare, sabotage, geopolitical, report-type=analytical]
