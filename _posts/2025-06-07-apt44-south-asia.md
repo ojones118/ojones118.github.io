@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "APT-44 Expands Espionage Operations in South Asia"
-date: 2025-10-09
+date: 2025-06-07
 By: Omari Jones
 categories: [APT, Espionage]
 tags: [APT44, type=espionage, geo=south-Asia, report-type=analytical]
