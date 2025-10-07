@@ -2,8 +2,8 @@
 layout: post
 title: "Stuxnet Revisited – Legacy Lessons for Modern Defenders"
 date: 2025-10-04
-categories: [Malware, Industry, Industrial]
-tags: [stuxnet, ics, analytical, history, iran]
+categories: [Malware, Industrial]
+tags: [mal=stuxnet, ind=nat-gov, report-type=analytical, geo=iran]
 description: "Technical reflection on Stuxnet’s operational model and relevance to modern ICS threats."
 ---
 <p align="center">
