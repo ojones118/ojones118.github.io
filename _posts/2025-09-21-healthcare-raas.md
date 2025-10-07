@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Healthcare Sector Hit by Ransomware-as-a-Service"
-date: 2025-10-10
+date: 2025-09-21
 By: Omari Jones
 categories: [Malware, Ransomware, Healthcare]
 tags: [ind=healthcare, type=ransomware, RaaS, mal=LockBit, report-type=analytical]
