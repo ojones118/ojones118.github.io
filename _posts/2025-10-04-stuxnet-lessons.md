@@ -14,13 +14,14 @@ Fifteen years after its discovery, Stuxnet remains a blueprint for cyber-physica
 The malware used multiple zero-days and stolen certificates to sabotage Iran’s nuclear centrifuges.
 Modern APT actors continue to mirror their multi-stage delivery and stealth.
 Critical takeaways include the importance of air-gap policy validation and firmware integrity monitoring.
+<p align="center">
+  <img src="/assets/stuxnet2.png" alt="How Stuxnet Works" width="700"> 
+</p>
 <details><summary>Defensive Insights</summary>
 - Validate digital signatures on industrial firmware
 - Audit network segmentation regularly
 - Employ OT/ICS IDS solutions with protocol-level visibility
-  <p align="center">
-  <img src="/assets/stuxnet2.png" alt="How Stuxnet Works" width="700"> 
-</p>
+  
 </details>
 ## Impact
 Stuxnet demonstrated the potential of code as a weapon in state-level conflict.
