@@ -87,8 +87,7 @@ ShadowLynx compromises pose a **severe software supply-chain risk**, capable of 
 Given npm’s global integration across DevOps ecosystems, even a handful of compromised dependencies can result in **wide-scale exposure**.  
 The campaign underscores the fragility of trust-based open-source environments and the increasing sophistication of threat actors targeting developer infrastructure.  
 
-## Sources
-<details>
+<details><summary> **Sources**</summary>
 - GitHub Security Advisory (2025)  
 - Snyk Vulnerability Research  
 - ReversingLabs Threat Intel Report (2025)  
