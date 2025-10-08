@@ -41,19 +41,43 @@ Analysts believe the project’s naming conventions and code structure indicate 
 
 </details>
 
-<details><summary>📊 IOC Table</summary>
+<details><summary> Domains & IPs</summary>
 
-| **Type** | **Indicator** | **Description** |
-|-----------|----------------|-------------------------|
-| File Hash | `f2a71ce3dfb32e8b4c56c7e2b1491b7dbeaa4de542d5b2ea9a3d917e2d3391ff` | Sandspear wiper binary |
-| File Hash | `19d74caa6b2b923a47f2389ed83d1f76e2186a2b1425c72a4d6d60e0f9b89210` | ShadowLynx payload module |
-| Domain | `cdn-sync[.]net` | Primary C2 channel |
-| Domain | `telemetryhub[.]dev` | Secondary C2 server |
-| IP | `45.33.67[.]201` | VPS staging node |
-| Registry | `HKLM\\System\\CurrentControlSet\\Services\\SpearMon` | Creates persistence service |
-| File | `agent_peacock.dll` | Espionage backdoor |
-| Behavior | Beacon every 180s | WebSocket exfiltration |
-| MITRE TTP | T1059, T1071.001 | Scripting & Web Protocols |
+- `cdn-sync[.]net` — Primary C2 channel  
+- `update-sandsys[.]org` — Secondary relay node  
+- `45.33.67[.]201` — VPS staging server (Germany)  
+
+</details>
+
+<details><summary> File Hashes</summary>
+
+- `f2a71ce3dfb32e8b4c56c7e2b1491b7dbeaa4de542d5b2ea9a3d917e2d3391ff` — *Sandspear* ICS wiper  
+- `19d74caa6b2b923a47f2389ed83d1f76e2186a2b1425c72a4d6d60e0f9b89210` — *Agent Peacock* espionage backdoor  
+
+</details>
+
+<details><summary> Registry & Persistence</summary>
+
+- `HKLM\\System\\CurrentControlSet\\Services\\SpearMon` — Service-based persistence  
+- `HKCU\\Software\\TelemetryUpdater` — Configuration for ShadowLynx updater  
+
+</details>
+
+<details><summary>📡 Network & Behavioral Observations</summary>
+
+- Beaconing every 180 seconds via WebSocket  
+- TLS traffic mimics telemetry sync packets  
+- Activity spikes during 08:00–17:00 UTC+3  
+- Log timestamps rewritten to disguise sequence  
+
+</details>
+
+<details><summary> MITRE ATT&CK Techniques</summary>
+
+- **T1059.003** – Command and Scripting Interpreter: PowerShell  
+- **T1071.001** – Application Layer Protocol: Web Protocols  
+- **T1552.001** – Credential Access: Credentials in Files  
+- **T1547.001** – Persistence: Registry Run Keys  
 
 </details>
 
@@ -63,8 +87,9 @@ ShadowLynx compromises pose a **severe software supply-chain risk**, capable of 
 Given npm’s global integration across DevOps ecosystems, even a handful of compromised dependencies can result in **wide-scale exposure**.  
 The campaign underscores the fragility of trust-based open-source environments and the increasing sophistication of threat actors targeting developer infrastructure.  
 
-## Sources
+<details><summary> ## sources </summary>- 
 - GitHub Security Advisory (2025)  
 - Snyk Vulnerability Research  
 - ReversingLabs Threat Intel Report (2025)  
 - Digital Forensics Association Supply Chain Bulletin
+</details>
