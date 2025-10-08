@@ -41,26 +41,22 @@ Analysts believe the project’s naming conventions and code structure indicate 
 
 </details>
 
-<details><summary>Technical Indicators (IOCs)</summary>
+<details><summary>📊 IOC Table</summary>
 
-**File Hashes (SHA256):**
-- `3fbd56e210e6d142ab6fa69c1f9a1eab2b7b91e63cfa173e70e66e8827aaf72c`  
-- `19d74caa6b2b923a47f2389ed83d1f76e2186a2b1425c72a4d6d60e0f9b89210`  
-
-**Domains:**
-- `cdn-sync[.]net`  
-- `telemetryhub[.]dev`  
-- `update-metrics[.]cloud`  
-
-**Registry Keys (Windows):**
-- `HKCU\Software\TelemetryUpdater`  
-- `HKLM\Software\Microsoft\UpdateSync`
-
-**Network Behavior:**
-- WebSocket beaconing every 180 seconds  
-- POST requests disguised as `performance.log` uploads  
+| **Type** | **Indicator** | **Description** |
+|-----------|----------------|-------------------------|
+| File Hash | `f2a71ce3dfb32e8b4c56c7e2b1491b7dbeaa4de542d5b2ea9a3d917e2d3391ff` | Sandspear wiper binary |
+| File Hash | `19d74caa6b2b923a47f2389ed83d1f76e2186a2b1425c72a4d6d60e0f9b89210` | ShadowLynx payload module |
+| Domain | `cdn-sync[.]net` | Primary C2 channel |
+| Domain | `telemetryhub[.]dev` | Secondary C2 server |
+| IP | `45.33.67[.]201` | VPS staging node |
+| Registry | `HKLM\\System\\CurrentControlSet\\Services\\SpearMon` | Creates persistence service |
+| File | `agent_peacock.dll` | Espionage backdoor |
+| Behavior | Beacon every 180s | WebSocket exfiltration |
+| MITRE TTP | T1059, T1071.001 | Scripting & Web Protocols |
 
 </details>
+
 
 ## Impact
 ShadowLynx compromises pose a **severe software supply-chain risk**, capable of infiltrating developer pipelines and propagating to enterprise production systems.  
