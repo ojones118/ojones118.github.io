@@ -6,6 +6,7 @@ Authors: [Omari, Sarah]
 categories: [Geopolitics, Cyberwarfare]
 tags: [cyberwarfare, sabotage, geopolitical, report-type=analytical]
 description: "Analytical synthesis of cyber sabotage linked to regional conflicts."
+---
 
 ## Summary
 Politically motivated cyberattacks are intensifying as energy disputes and border tensions escalate across Europe and Asia.  
