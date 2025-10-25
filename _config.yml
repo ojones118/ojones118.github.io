@@ -19,7 +19,7 @@ title: Omari Jones # the main title
 tagline: A practical cybersecurity portfolio documenting my hands-on journey through cybersecurity labs, tools like Ludus, and real-world threat analysis. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  Documenting my cybersecurity journey through labs, CVEs, and writeups of emerging threats.
+  Documenting my cybersecurity journey through Labs, CVEs, and Research of emerging threats.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
