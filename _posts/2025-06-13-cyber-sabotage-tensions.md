@@ -2,7 +2,7 @@
 layout: post
 title: "Geopolitical Tensions Drive Cyber Sabotage Attempts"
 date: 2025-06-13
-authors: [<author1_id>, <author2_id>]
+authors: [<author_1>, <author_2>]
 categories: [Geopolitics, Cyberwarfare]
 tags: [cyberwarfare, sabotage, geopolitical, report-type=analytical]
 description: "Analytical synthesis of cyber sabotage linked to regional conflicts."
